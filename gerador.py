@@ -15,6 +15,7 @@ try:
  
     stdin, stdout, stderr = client.exec_command("ls -l")
     print(stdout.read()),
+    # dsadaskmdasklnkclna
  
 finally:
     client.close()
